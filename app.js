@@ -26,17 +26,20 @@ const validacion = function () {
     username.value === cuentas[0].nombre &&
     password.value === cuentas[0].password
   ) {
+    advertencia.style.color = "green";
     advertencia.textContent = "Correcto";
   } else if (
     username.value === cuentas[1].nombre &&
     password.value === cuentas[1].password
   ) {
+    advertencia.style.color = "green";
     advertencia.textContent = "Correcto";
   }
   else if (
     username.value === cuentas[2].nombre &&
     password.value === cuentas[2].password
   ) {
+    advertencia.style.color = "green";
     advertencia.textContent = "Correcto";
   } else{
     advertencia.style.color = "red";
