@@ -16,11 +16,11 @@ var cuentas = [
   },
 ];
 
-const username = document.getElementsById("form-select");
-const password = document.getElementsById("input-password");
+const username = document.getElementById("form-select");
+const password = document.getElementById("input-password");
 
 const advertencia = document.getElementById("advertencia");
-const button = document.getElementsById("iniciar");
+const button = document.getElementById("iniciar");
 const validacion = function () {
   if (
     username.value === cuentas[0].nombre &&
