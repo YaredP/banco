@@ -17,14 +17,13 @@
     <link rel="stylesheet" href="./style.css" />
 
     <script defer src="./app.js"></script>
-    
   </head>
   <body>
-    <section1>
-      <div class="caja1">
+    <section>
+      <div class=" " id="caja1">
         <h1>Inicio de Sesión</h1>
         <hr />
-        <form method="post">
+        <form>
           <div class="username">
             <select id="form-select" aria-label="Default select example">
               <option value="Persona1">Persona1</option>
@@ -36,10 +35,31 @@
             <input id="input-password" type="password" required />
             <label>Contraseña</label>
           </div>
-          <button id="iniciar">Iniciar</button>
+          <button id="iniciar" type="submit">Iniciar</button>
           <p id="advertencia"></p>
         </form>
       </div>
-    </section1>
+    </section>
+
+    <section2>
+      <div class="ocultar" id="operations">
+        <h2>Cuenta</h2>
+        <p id="saludo"></p>
+      <div id="contenedor">
+        <contenedor1>
+          <button id="consultar" type="submit">Consultar saldo</button>
+          <button id="cerrar-sesion" type="submit">Salir</button>
+        </contenedor1>
+      </div>
+      <div>
+      </contenedor2>
+        <button id="depositar" type="submit">Depositar</button>
+        <button id="retirar" type="submit">Retirar</button>
+      </contenedor2>
+        <p class="saldo" id="saldo"></p>
+        <input id="input-cantidad" type="number" required placeholder="ingresa cantidad"/>
+    </div>
+      </div>
+    </section2>
   </body>
 </html>
