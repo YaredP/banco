@@ -20,7 +20,7 @@
   </head>
   <body>
     <section>
-      <div class=" " id="caja1">
+      <div class="" style="display: block;" id="caja1">
         <h1>Inicio de Sesión</h1>
         <hr />
         <form>
@@ -42,22 +42,23 @@
     </section>
 
     <section2>
-      <div class="ocultar" id="operations">
+      <div style="display: none;" id="operations">
         <h2>Cuenta</h2>
         <p id="saludo"></p>
       <div id="contenedor">
-        <contenedor1>
+        <div class="contenedor1">
           <button id="consultar" type="submit">Consultar saldo</button>
-          <button id="cerrar-sesion" type="submit">Salir</button>
-        </contenedor1>
+          <button id="cerrarsesion" type="submit">Salir</button>
+        </div>
       </div>
       <div>
-      </contenedor2>
+      <div class="contenedor2">
         <button id="depositar" type="submit">Depositar</button>
         <button id="retirar" type="submit">Retirar</button>
-      </contenedor2>
+      </div>
         <p class="saldo" id="saldo"></p>
-        <input id="input-cantidad" type="number" required placeholder="ingresa cantidad"/>
+        <input id="cantidad" type="number" required placeholder="ingresa cantidad"/>
+        <p id="advertencia2"> </p>
     </div>
       </div>
     </section2>
